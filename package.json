@@ -1,0 +1,22 @@
+{
+	"name": "coffee-shop",
+	"version": "1.0.0",
+	"description": "sequelize app",
+	"main": "server.js",
+	"scripts": {
+	  "build": "cd server && npm install && cd ../cd client && npm install && npm run build",
+	  "start": "node server/server.js",
+	  "test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/adamdasovich/coffee-shop.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+	  "url": "https://github.com/adamdasovich/coffee-shop/issues"
+	},
+	"homepage": "https://github.com/adamdasovich/coffee-shop#readme"
+  }
